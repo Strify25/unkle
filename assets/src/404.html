@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    //= template/head.html
+</head>
+<body>
+
+<div data-uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky;show-on-up: true; animation: uk-animation-slide-top; bottom: #bottom" class="topNav">
+    <nav class="uk-container uk-navbar-container uk-navbar-transparent uk-dark mainNavbar" data-uk-navbar>
+        <div class="uk-navbar-left">
+            <a href="/" class="uk-navbar-item uk-logo uk-margin-large-right">
+                <img src="img/logo.svg" alt="" data-uk-svg>
+	            <span class="slogan">Маркетинговое<br>агентство</span>
+            </a>
+            <ul class="uk-navbar-nav uk-visible@m">
+                //= template/menuUl.html
+            </ul>
+        </div>
+        //= template/uk-navbar-right.html
+    </nav>
+</div>
+
+<div class="uk-container uk-margin-large-bottom uk-margin-large-top">
+	<h1 class="uk-margin-remove-bottom">Ошибка</h1>
+	<p class="uk-margin-remove-top">Вы зашли слишком далеко.<br>Ознакомьтесь лучше с нашей работой</p>
+    <a href="/" class="blueBtn leftArrow">На главную страницу</a>
+</div>
+<picture>
+    <source media="(max-width: 600px)" srcset="/img/404-600.webp" type="image/webp">
+    <source media="(max-width: 600px)" srcset="/img/404-600.jpg">
+    <source srcset="img/404.webp" type="image/webp">
+    <img data-src="img/404.jpg" alt="" class="uk-width-1-1" data-width="" data-height="" data-uk-img>
+</picture>
+
+
+//= template/footerForm.html
+
+
+//= template/footer.html
+</body>
+</html>

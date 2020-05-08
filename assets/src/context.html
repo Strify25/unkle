@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    //= template/head.html
+</head>
+<body>
+
+<div class="uk-cover-container contacts context-bg uk-background-fixed" data-uk-parallax="bgy: -100">
+    <div class="uk-position-cover">
+        <div class="uk-width-1-1 uk-height-1-1"> 
+            <div class="uk-container uk-height-1-1 uk-flex uk-flex-column uk-flex-middle uk-flex-center">
+                <div class="uk-width-1-1" data-uk-parallax="y: 80,0;viewport: 0.8">
+                    <div class="uk-width-1-1 uk-margin-medium-bottom">
+                        <div class="bannerTitle h1">Контекстная реклама</div>
+                    </div>
+                    <p>Реклама на результатах поиска Яндекс и Google, а <br>также на тысячах площадках рекламных сетей. </p>
+                    <a href="#callMe" class="blueBtn withArrow modalFormTrigger" data-theme="Контекстная реклама: Получить консультацию" data-target="#callMe">Получить консультацию</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky;show-on-up: true; animation: uk-animation-slide-top; bottom: #bottom" class="topNav">
+        <nav class="uk-container uk-navbar-container uk-navbar-transparent uk-light mainNavbar" data-uk-navbar>
+            <div class="uk-navbar-left">
+                <a href="/" class="uk-navbar-item uk-logo uk-margin-large-right">
+                    <img src="img/logo.svg" alt="" data-uk-svg>
+                    <span class="slogan">Маркетинговое<br>агентство</span>
+                </a>
+                <ul class="uk-navbar-nav uk-visible@m">
+                    //= template/menuUl.html
+                </ul>
+            </div>
+            //= template/uk-navbar-right.html
+        </nav>
+    </div>
+</div>
+<div id="contentWrap" class="uk-margin-large-bottom"></div>
+<div class="uk-container">
+    <div data-uk-grid class="uk-child-width-1-2@m">
+        <div data-uk-scrollspy="cls: uk-animation-slide-left; delay: 300">
+            <div class="h2 uk-margin-remove">Контекстная реклама в интернете в Яндексе и Google. <br> Настройка и управление контекстной рекламой</div>
+        </div>
+        <div data-uk-scrollspy="cls: uk-animation-slide-right; delay: 300">
+            <p>Контекстная реклама в интернете один из самых доступных и популярных каналов для привлечения целевой аудитории на Ваш сайт. Все благодаря тому, что размещение данных объявлений происходит на всех известных площадках поисковых систем Яндекс и Google.</p>
+            <p>Преимущества контекстной рекламы в Яндекс и Google является то, что сразу отвечает поисковому запросу пользователя и размещается в самых органичных местах поисковой выдачи, позволяя пользователю сразу находить желаемый продукт. </p>
+        </div>   
+    </div>
+    <h2>Примеры контекстной рекламы в Яндекс и Google:</h2>
+    <p>Например, вы ищите запрос «Строительство домов»</p>
+    <div data-uk-grid class="uk-child-width-1-2@m" data-uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 300">
+        <div>
+            <picture>
+                <source srcset="img/service/detail/yandex.webp" type="image/webp">
+                <img data-src="img/service/detail/yandex.jpg" alt="" data-width="" data-height="" data-uk-img>
+            </picture>
+        </div>
+        <div>
+            <picture>
+                <source srcset="img/service/detail/google.webp" type="image/webp">
+                <img data-src="img/service/detail/google.jpg" alt="" data-width="" data-height="" data-uk-img>
+            </picture>
+        </div>
+    </div>
+    <p>Так выглядит отображение рекламных объявлений в Яндекс.Директе и в Google Adwords соответственно. На данный момент рекламные объявления занимает практически 70% первого экрана поисковой выдачи, чтобы увеличить объем трафика по объявлению.</p>
+    <div class="h3">Рекламные сети Яндекса и Google</div>
+    <p>Зачастую контекстная реклама может размещаться на различных сайтах-партнерах Яндекса и Google. Данные сайты собирают большую аудиторию, а поисковые системы, путем размещения там рекламных объявлений получают высокий показатель трафика.</p>
+    <div class="uk-text-center mb-60 uk-margin-medium-top" data-uk-scrollspy="cls: uk-animation-scale-up; delay: 300">
+        <picture>
+            <source srcset="img/service/detail/yandex2.webp" type="image/webp">
+            <img data-src="img/service/detail/yandex2.webp" alt="" data-width="" data-height="" data-uk-img>
+        </picture>
+    </div>
+    <p>Большой плюс данных объявлений в отличии от Директа и Adwords, это его визуальная часть. Наличие изображений хорошо влияет на узнаваемость компании среди большой аудитории.</p>
+    <h2 class="mt-100">Стоимость контекстной рекламы</h2>
+    <div class="uk-child-width-1-3@s mb-100" id="seoPrice" data-uk-grid data-uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 300">
+        <div>
+            <div class="targetingPrice seoPrice">
+                <div>
+                    <div class="uk-text-center">
+                        <div class="title">Старт</div>
+                        <div class="price">15&nbsp;000&nbsp;₽ в месяц</div>
+                    </div>
+                    <div class="include">
+                        <p class="uk-text-bold uk-text-center">Что входит</p>
+                        <ul class="listLine">
+                            <li>Настройка и ведение Яндекс.Директ, РСЯ.</li>
+                            <li>До 200 фраз.</li>
+                            <li>До 10 групп объявлений.</li>
+                            <li>Бюджет кампании до 150000 руб. в месяц.</li>
+                            <li>Еженедельная отчетность о переходах с РК.</li>
+                            <li>Ежемесячные рекомендации по качеству РК.</li>
+                        </ul>
+                    </div>
+                    <div class="btn uk-text-center"><a href="#" class="blueBtn modalFormTrigger" data-theme="Контекстная реклама: старт" data-target="#callMe">Заказать</a></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="targetingPrice seoPrice">
+                <div>
+                    <div class="uk-text-center">
+                        <div class="title">Бизнес</div>
+                        <div class="price">30&nbsp;000&nbsp;₽ в месяц</div>
+                    </div>
+                    <div class="include">
+                        <p class="uk-text-center uk-text-bold">Что входит</p>
+                        <ul class="listLine">
+                            <li>Настройка и ведение Яндекс.Директ и РСЯ, Google Adwords и AdSense.</li>
+                            <li>До 400 фраз.</li>
+                            <li>До 30 групп объявлений.</li>
+                            <li>Бюджет кампании до 300000 руб. в месяц.</li>
+                            <li>Еженедельная отчетность переходах с РК.</li>
+                            <li>Ежемесячные рекомендации по качеству РК.</li>
+                        </ul>
+                    </div>
+                    <div class="btn uk-text-center"><a href="#callMe" class="blueBtn modalFormTrigger" data-theme="Контекстная реклама: Бизнес" data-target="#callMe">Заказать</a></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="targetingPrice seoPrice">
+                <div>
+                    <div class="uk-text-center">
+                        <div class="title">Премиум</div>
+                        <div class="price">10% от бюджета РК</div>
+                    </div>
+                    <div class="include">
+                        <p class="uk-text-center uk-text-bold">Что входит</p>
+                        <ul class="listLine">
+                            <li>Настройка и ведение Яндекс.Директ и РСЯ, Google Adwords и AdSense.</li>
+                            <li>Индивидуальное число фраз.</li>
+                            <li>Индивидуальное число групп объявлений.</li>
+                            <li>Бюджет кампании от 300000 в месяц.</li>
+                            <li>Еженедельная отчетность о переходах с РК.</li>
+                            <li>Ежемесячные рекомендации по качеству РК и юзабилити сайта.</li>
+                        </ul>
+                    </div>
+                    <div class="btn uk-text-center"><a href="#callMe" class="blueBtn modalFormTrigger" data-theme="Контекстная реклама: Премиум" data-target="#callMe">Заказать</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mainAboutWrapper mt-60">
+    <div class="position-relative">
+        <div class="uk-flex-middle uk-margin-remove" uk-grid>
+            <div class="uk-width-1-2@m uk-padding-remove position-relative">
+                    <picture>
+                        <source srcset="/img/service/detail/startContext.webp" type="image/webp">
+                        <img data-src="/img/service/detail/startContext.png" data-width="" data-height="" alt="" uk-img class="uk-width-1-1">
+                    </picture>
+            </div>
+        </div>
+        <div class="mainAboutText uk-height-1-1">
+            <div class="uk-container uk-height-1-1 uk-flex uk-flex-middle uk-flex-right">
+                <div class="uk-width-1-2@m pl-100">
+                    <h2 class="mb-60">Расчитаем стоимость  <br>и запустим рекламу! <br>Начнем?</h2>
+                    <a href="#callMe" class="blueBtn modalFormTrigger" data-theme="Контекстная реклама: Расчитать стомость рекламы" data-target="#callMe">Расчитать стомость рекламы</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="uk-container">
+    <h2>Что входит в услугу размещения и ведения контекстной рекламы</h2>
+    <ol class="count" data-uk-scrollspy="target: > li; cls: uk-animation-slide-top-small; delay: 300">
+        <li>Ведение контекстной рекламы с вашего аккаунта. Это огромный плюс, так как вы всегда сможете сохранить историю ведения рекламной кампании и всегда прозрачно увидите расход средств.</li>
+        <li>Анализ целевой аудитории и составление описаний контекстных объявлений; </li>
+        <li>Составление перечня страниц Интернет-сайта, на которые будут вести ссылки с контекстной рекламы;</li> 
+        <li>Составление медиаплана рекламных кампаний, а сюда входит: 
+            <ul class="listLine">
+                <li>Подбор ключевых слов; </li>
+                <li>Подбор минус-слов для исключения нетематических показов; </li>
+                <li>Подбор минус-слов для исключения пересечения объявлений (кроссминусовка); </li>
+                <li>Прогноз оптимального бюджета; </li>
+                <li>Настройка сбора статистики об эффективности рекламных объявлений; </li>
+                <li>Настройка контекстных объявлений с учетом целевой аудитории; </li>
+                <li>Размещение контекстных объявлений в поисковых системах и рекламных/медийных сетях; </li>
+                <li>Управление текстовыми описаниями с целью повышения кликабельности контекстных объявлений; </li>
+                <li>Управление стоимостью клика с целью эффективного расходования бюджета.</li>
+            </ul>
+        </li>
+        <li>Анализ эффективности рекламных объявлений в плане достижения целевых действий; </li>
+        <li>Отчетность об эффективности размещения контекстной рекламы;</li>
+        <li>Еженедельный отчет по кликабельности объявлений.</li>
+    </ol>
+    <p>Запустить контекстную рекламу с компанией UNKle можно при любом доступном бюджете, формирование стоимости услуг зависти напрямую от выделенного бюджета с Вашей стороны.</p>
+    <p>Рассчитать стоимость можно у наших менеджеров или воспользовавшись формой обратной связи.</p>
+    <div class="uk-text-center mb-120 mt-60"><a href="#callMe" class="blueBtn modalFormTrigger" data-theme="Контекстная реклама: Расчитать стомость рекламы" data-target="#callMe">Расчитать стомость рекламы</a></div>
+    <div></div>
+</div>
+
+//= template/footerForm.html
+
+//= template/footer.html
+</body>
+</html>

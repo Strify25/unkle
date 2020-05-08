@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    //= template/head.html
+</head>
+<body>
+
+<div class="uk-cover-container contacts create-bg uk-background-fixed" data-uk-parallax="bgy: -100">
+    <div class="uk-position-cover">
+        <div class="uk-width-1-1 uk-height-1-1"> 
+            <div class="uk-container uk-height-1-1 uk-flex uk-flex-column uk-flex-middle uk-flex-center">
+                <div class="uk-width-1-1" data-uk-parallax="y: 80,0;viewport: 0.8">
+                    <div class="uk-width-1-1 uk-margin-medium-bottom">
+                        <div class="bannerTitle h1">Создание сайтов</div>
+                    </div>
+                    <p>Мы разрабатываем эффективные адаптивные <br>сайты для вашего бизнеса.</p>
+                    <a href="#callMe" class="blueBtn withArrow modalFormTrigger" data-theme="Создание сайтов: Получить консультацию" data-target="#callMe">Получить консультацию</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky;show-on-up: true; animation: uk-animation-slide-top; bottom: #bottom" class="topNav">
+        <nav class="uk-container uk-navbar-container uk-navbar-transparent uk-light mainNavbar" data-uk-navbar>
+            <div class="uk-navbar-left">
+                <a href="/" class="uk-navbar-item uk-logo uk-margin-large-right">
+                    <img src="img/logo.svg" alt="" data-uk-svg>
+                    <span class="slogan">Маркетинговое<br>агентство</span>
+                </a>
+                <ul class="uk-navbar-nav uk-visible@m">
+                    //= template/menuUl.html
+                </ul>
+            </div>
+            <div class="uk-navbar-right">
+                <div class="uk-navbar-item uk-margin-large-right uk-visible@s">
+                    <div class="headerPhoneWrap">
+                        <a href="tel:+74956643579">+7 (495) 664-35-79</a>
+                        <span class="callMeHeader modalFormTrigger" data-theme="Заказать звонок" data-target="#callMe">Заказать звонок</span>
+                    </div>
+                </div>
+                <div class="uk-navbar-item sidebarToggle">
+                    <button data-uk-toggle="target: #sidebarMenu; animation: uk-animation-slide-top-small" type="button" class="sidebarBtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<div id="contentWrap" class="uk-margin-large-bottom"></div>
+<div class="uk-container">
+    <div data-uk-grid class="uk-child-width-1-2@m">
+        <div>
+            <div class="h2 uk-margin-remove">Разработаем <br>эффективный сайт <br>для вашего бизнеса</div>
+        </div>
+        <div>
+            <ul class="listLine" data-uk-scrollspy="target: > li; cls: uk-animation-slide-right; delay: 300">
+                <li>создание сайта и его маркетинговой концепции</li>
+                <li>создание уникального современного дизайна</li>
+                <li>адаптация сайта под мобильные, планшетные и другие устройства</li>
+                <li>SEO оптимизация сайта</li>
+                <li>техническая поддержка и помощь в развитии сайта</li>
+            </ul>
+        </div>   
+    </div>
+    <h2>Сколько стоит создание сайта под ключ?</h2>
+    <div class="uk-child-width-1-4@s" id="seoPrice" data-uk-grid data-uk-scrollspy="target: > div; cls: uk-animation-scale-up; delay: 300">
+        <div>
+            <div class="targetingPrice seoPrice ph-15">
+                <div>
+                    <div class="uk-text-center">
+                        <div class="title">Landing Page </div>
+                        <div class="price">от 45&nbsp;000&nbsp;₽</div>
+                    </div>
+                    <div class="include">
+                        <p class="uk-text-bold uk-text-center">Что входит</p>
+                        <p>Количество уникальных эскизов страниц: <span class="uk-text-bold">1</span> </p>
+                        <ul class="listLine">
+                            <li>Уникальный дизайн.</li>
+                            <li>Индивидуальные функциональные элементы.</li>
+                            <li>Индивидуальная структура страницы.</li>
+                            <li>Полноэкранная и мобильная версия.</li>
+                            <li>Копирайтинг для сайта.</li>
+                            <li>Фирменный стиль сайта.</li>
+                            <li>Гарантия на работы 1 месяц.</li>
+                        </ul>
+                    </div>
+                    <div class="btn uk-text-center"><a href="#" class="blueBtn modalFormTrigger" data-theme="Создание сайта: Landing Page" data-target="#callMe">Заказать</a></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="targetingPrice seoPrice ph-15">
+                <div>
+                    <div class="uk-text-center">
+                        <div class="title">Сайт-визитка</div>
+                        <div class="price">от 75&nbsp;000&nbsp;₽</div>
+                    </div>
+                    <div class="include">
+                        <p class="uk-text-center uk-text-bold">Что входит</p>
+                        <p>Количество уникальных эскизов страниц: <span class="uk-text-bold">до 5</span></p>
+                        <ul class="listLine">
+                            <li>Уникальный дизайн каждой страницы.</li>
+                            <li>Выбор CMS на ваше усмотрение: Bitrix, Modx, Wordpress, Opencart, Joomla.</li>
+                            <li>Индивидуальные функциональные элементы.</li>
+                            <li>Индивидуальная структура каждой страницы.</li>
+                            <li>Полноэкранная и мобильная версия.</li>
+                            <li>Наполнение сайта предоставленным контентом.</li>
+                            <li>Тестирование фокус-группой.</li>
+                            <li>Гарантия на работы 3 месяца.</li>
+                        </ul>
+                    </div>
+                    <div class="btn uk-text-center"><a href="#callMe" class="blueBtn modalFormTrigger" data-theme="Создание сайта: Сайт-визитка" data-target="#callMe">Заказать</a></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="targetingPrice seoPrice ph-15">
+                <div>
+                    <div class="uk-text-center">
+                        <div class="title twoLines"><div>
+                            Корпоративный <span>сайт</span>
+                        </div></div>
+                        <div class="price">от 135&nbsp;000&nbsp;₽</div>
+                    </div>
+                    <div class="include">
+                        <p class="uk-text-center uk-text-bold">Что входит</p>
+                        <p>Количество уникальных эскизов страниц: <span class="uk-text-bold">до 10</span></p>
+                        <ul class="listLine">
+                            <li>Уникальный дизайн каждой страницы.</li>
+                            <li>Прототипирование логики структуры сайта.</li>
+                            <li>Выбор CMS на ваше усмотрение: Bitrix, Modx, Wordpress, Opencart, Joomla.</li>
+                            <li>Индивидуальные функциональные элементы.</li>
+                            <li>Индивидуальная структура каждой страницы.</li>
+                            <li>Полноэкранная и мобильная версия.</li>
+                            <li>Наполнение сайта предоставленным контентом.</li>
+                            <li>Тестирование фокус-группой.</li>
+                            <li>Помощь в интеграции с CRM.</li>
+                            <li>Гарантия на работы 3 месяца.</li>
+                        </ul>
+                    </div>
+                    <div class="btn uk-text-center"><a href="#callMe" class="blueBtn modalFormTrigger" data-theme="Создание сайта: Корпоративный  сайт" data-target="#callMe">Заказать</a></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="targetingPrice seoPrice ph-15">
+                <div>
+                    <div class="uk-text-center">
+                        <div class="title">Интернет-магазин</div>
+                        <div class="price">от 199&nbsp;000&nbsp;₽</div>
+                    </div>
+                    <div class="include">
+                        <p class="uk-text-center uk-text-bold">Что входит</p>
+                        <p>Количество уникальных эскизов страниц: <span class="uk-text-bold">до 20</span></p>
+                        <ul class="listLine">
+                            <li>Уникальный дизайн каждой страницы.</li>
+                            <li>Прототипирование логики структуры сайта.</li>
+                            <li>Выбор CMS на ваше усмотрение: Bitrix, Modx, Wordpress, Opencart, Joomla.</li>
+                            <li>Индивидуальные функциональные элементы.</li>
+                            <li>Индивидуальная структура каждой страницы.</li>
+                            <li>Полноэкранная и мобильная версия.</li>
+                            <li>Наполнение сайта предоставленным контентом.</li>
+                            <li>Тестирование фокус-группой.</li>
+                            <li>Интеграции с CRM Битрикс24.</li>
+                            <li>Настройка обмена данными с сайтом.</li>
+                            <li>Установка различных API.</li>
+                            <li>Онлайн-кассы.</li>
+                            <li>Настройка электронной коммерции.</li>
+                            <li>Гарантия на работы 3 месяца.</li>
+                        </ul>
+                    </div>
+                    <div class="btn uk-text-center"><a href="#callMe" class="blueBtn modalFormTrigger" data-theme="Создание сайта: Интернет-магазин" data-target="#callMe">Заказать</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-text-center mt-60">
+        <div class="h3">Не знаете какой сайт нужен и с чего начать разработку?</div>
+        <a href="#callMe" class="blueBtn modalFormTrigger" data-theme="Создание сайтов: Получить консультацию" data-target="#callMe">Получить консультацию</a>
+    </div>
+</div>
+
+//= template/start.html
+
+//= template/why.html
+
+//= template/mainAboutWrapper.html
+
+<div class="uk-container mt-60" data-uk-scrollspy="target: > div; cls: uk-animation-slide-top-small; delay: 300">
+    <h2>Как происходит работа</h2>
+    <div class="howLearn">
+        <div class="number">01</div>
+        <div class="text">
+            <div class="title">Заполнение брифа</div>
+            <div class="descr">
+                <p>Заполненный бриф – начальный этап создания сайта. Мы принимаем вводную информацию и обсуждаем конечный результат создания сайта. Благодаря этому специалисты веб-студии смогут понять, какой сайт Вы хотите получить и подготовить техническое задание на разработку.</p>
+            </div>
+        </div>
+    </div>
+    <div class="howLearn">
+        <div class="number">02</div>
+        <div class="text">
+            <div class="title">Просчет стоимости</div>
+            <div class="descr">
+                <p>Исходя из полученных данных менеджеры веб-студии оценивают затраты времени на создание сайта и готовят предложение с оптимальной стоимостью.</p>
+            </div>
+        </div>
+    </div>
+    <div class="howLearn">
+        <div class="number">03</div>
+        <div class="text">
+            <div class="title">Аналитика</div>
+            <div class="descr">
+                <p>На этом этапе проводится анализ поисковых запросов пользователей, а также сайтов потенциальных конкурентов. Затем мы составляем рекомендации по позиционированию сайта и бизнеса в сети интернет.</p>
+            </div>
+        </div>
+    </div>
+    <div class="howLearn">
+        <div class="number">04</div>
+        <div class="text">
+            <div class="title">Разработка фирменного стиля сайта</div>
+            <div class="descr">
+                <p>На основании прототипа веб-дизайнером предлагаются цветовые и шрифтовые решения, определяется стиль веб-страниц, например, современный flat-дизайн.</p>
+            </div>
+        </div>
+    </div>
+    <div class="howLearn">
+        <div class="number">05</div>
+        <div class="text">
+            <div class="title">Уникальный веб-дизайн</div>
+            <div class="descr">
+                <p>Разработка уникального веб-дизайна и UI/UX прототипа интерфейса сайта или лендинга. Разрабатывается в Figma. Веб-дизайнер веб-студии подготовит макеты сайта и его мобильной версии.</p>
+            </div>
+        </div>
+    </div>
+    <div class="howLearn">
+        <div class="number">06</div>
+        <div class="text">
+            <div class="title">Утверждение дизайна сайта</div>
+            <div class="descr">
+                <p>Несмотря на то, что цель создания сайта – это решение определённых бизнес-задач, он должен нравиться заказчику. Именно поэтому Вам будет предложено 2-3 дизайн-концепции на выбор.</p>
+            </div>
+        </div>
+    </div>
+    <div class="howLearn">
+        <div class="number">07</div>
+        <div class="text">
+            <div class="title">Регистрация домена</div>
+            <div class="descr">
+                <p>Доменное имя – это уникальный адрес сайта в сети интернет. В ходе разработки мы порекомендуем Вам наиболее удачное название и поможем его зарегистрировать по доступной цене.</p>
+            </div>
+        </div>
+    </div>
+    <div class="howLearn">
+        <div class="number">08</div>
+        <div class="text">
+            <div class="title">Постановка технического задания</div>
+            <div class="descr">
+                <p>Когда полностью согласованы дизайн-макеты всех страниц сайта, происходит описание функционала – каким образом должны работать кнопки и триггеры на сайте, на какие страницы должны вести ссылки.</p>
+            </div>
+        </div>
+    </div>
+    <div class="howLearn">
+        <div class="number">09</div>
+        <div class="text">
+            <div class="title">HTML-верстка и программирование</div>
+            <div class="descr">
+                <p>Данный этап не требует участия заказчика. В ходе этой стадии верстальщики и программисты веб-студии превращают дизайнерские макеты в созданный сайт на основании технического задания. Используются современные технологии HTML5, CSS3, JavaScript и PHP.</p>
+            </div>
+        </div>
+    </div>
+    <div class="howLearn">
+        <div class="number">10</div>
+        <div class="text">
+            <div class="title">Система управления сайтом</div>
+            <div class="descr">
+                <p>Система управления сайтом или CMS – это интерфейс, в котором пользователь без специальных знаний может вносить изменения. В 99% случаев мы предлагаем клиентам популярные платформы, которые поддерживаются их разработчиками: WordPress, OpenCart, 1С-Битрикс.</p>
+            </div>
+        </div>
+    </div>
+    <div class="howLearn">
+        <div class="number">11</div>
+        <div class="text">
+            <div class="title">Наполнение контентом</div>
+            <div class="descr">
+                <p>После того как установлена и настроена административная панель сайта CMS, с ее помощью необходимо добавить контент – тексты на страницы, а также изображения и видеоролики.</p>
+            </div>
+        </div>
+    </div>
+    <div class="howLearn">
+        <div class="number">12</div>
+        <div class="text">
+            <div class="title">Тестирование</div>
+            <div class="descr">
+                <p>Обязательная процедура, которая позволяет выявить ошибки при создании сайта или неочевидные проблемы в работе функционала. Без ее прохождения категорически нельзя размещать сайты на продакшн.</p>
+            </div>
+        </div>
+    </div>
+    <div class="howLearn">
+        <div class="number">13</div>
+        <div class="text">
+            <div class="title">SEO-оптимизация</div>
+            <div class="descr">
+                <p>Один из основных стандартов разработки веб-студии UNKle – дружелюбность к поисковым системам. После создания, сайт проходит процедуру базовой SEO-оптимизации: составление мета-описаний наиболее важных страниц, регистрация в панелях вебмастеров.</p>
+            </div>
+        </div>
+    </div>
+    <div class="howLearn">
+        <div class="number">14</div>
+        <div class="text">
+            <div class="title">Техническая поддержка и услуги по развитию сайта</div>
+            <div class="descr">
+                <p>В большинстве случаев после выпуска основного релиза сайта, он требует технической поддержки и дальнейших доработок (размещение баннеров под новую акцию, доработку новых функций и прочее). Веб-студия Business Site с удовольствием будет оказывать помощь в успешном развитии – от консультаций и обучающих материалов до доработки сайта под последние требования интернет-маркетинга.</p>
+            </div>
+        </div>
+    </div>
+    <div class="uk-text-center">
+        <a href="#callMe" class="blueBtn" data-uk-toggle>Заказать сайт</a>
+    </div>
+</div>
+
+//= template/support.html
+
+<div class="uk-container">
+    <h2 class="mt-0">Портфолио</h2>
+    //= template/portfolio.html
+    <div class="uk-text-center uk-margin-medium-top mb-120">
+        <a href="/portfolio.html" class="transBlackBtn">Еще работы</a>
+    </div>
+</div>
+
+//= template/footerForm.html
+
+//= template/footer.html
+</body>
+</html>

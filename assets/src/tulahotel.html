@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    //= template/head.html
+</head>
+<body class="fancy">
+
+<div class="uk-cover-container portfolio uk-margin-large-bottom">
+    <img src="img/tulahotel.jpg" alt="" data-uk-cover>
+    <div class="uk-position-cover">
+        <div class="uk-width-1-1 uk-height-1-1">
+            <div class="uk-container uk-height-1-1 uk-flex uk-flex-middle">
+                <div class="uk-width-1-1">
+                	<img data-src="img/tulahotel-logo.png" alt="" data-uk-img>
+                    <div class="h2 bannerTitle">Гостиница в Туле</div>
+                    <a href="https://hoteltula.ru/" class="siteUrl" target="_blank" rel="nofollow">hoteltula.ru</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky;show-on-up: true; animation: uk-animation-slide-top; bottom: #bottom" class="topNav">
+	    <nav class="uk-container uk-navbar-container uk-navbar-transparent uk-light mainNavbar" data-uk-navbar>
+	        <div class="uk-navbar-left">
+	            <a href="/" class="uk-navbar-item uk-logo uk-margin-large-right">
+	                <img src="img/logo.svg" alt="" data-uk-svg>
+	                <span class="slogan">Маркетинговое<br>агентство</span>
+	            </a>
+	            <ul class="uk-navbar-nav uk-visible@m">
+	                //= template/menuUl.html
+	            </ul>
+	        </div>
+	        <div class="uk-navbar-right">
+	            <div class="uk-navbar-item uk-margin-large-right uk-visible@s">
+	                <div class="headerPhoneWrap">
+	                    <a href="tel:+74956643579">+7 (495) 664-35-79</a>
+	                    <span class="callMeHeader modalFormTrigger" data-theme="Заказать звонок" data-target="#callMe">Заказать звонок</span>
+	                </div>
+	            </div>
+	            <div class="uk-navbar-item sidebarToggle">
+	                <button data-uk-toggle="target: #sidebarMenu; animation: uk-animation-slide-top-small" type="button" class="sidebarBtn">
+	                    <span></span>
+	                    <span></span>
+	                    <span></span>
+	                </button>
+	            </div>
+	        </div>
+	    </nav>
+	</div>
+</div>
+
+<div class="uk-container">
+	<div class="portfolioBlock" style="background-image: url('img/target.svg');">
+		<div class="h3">Цель проекта:</div>
+		<p>сделать полный редизайн сайта с удобной навигацией и мобильной версией</p>
+	</div>
+	<div class="portfolioBlock" style="background-image: url('img/tasks.svg');">
+		<div class="h3">Задачи проекта:</div>
+		<ul class="listLine">
+			<li>разработка уникального современного адаптивного дизайна</li>
+			<li>наглядная презентация услуг и преимуществ гостиницы</li>
+			<li>разработка дополнительного раздела по бронированию апартаментов</li>
+		</ul>
+	</div>
+	<div class="portfolioBlock" style="background-image: url('img/idea.svg');">
+		<div class="h3">Решения:</div>
+		<ul class="listLine">
+			<li>создание на базе системы управления контентом 1С-Битрикс нового сайта с современным дизайном и удобным интерфейсом</li>
+			<li>оформление наглядной презентации номерного фонда и преимуществ гостиницы</li>
+			<li>создание удобной мобильной версии сайта</li>
+			<li>привлечение интерьерного фотографа</li>
+			<li>создание презентабельного раздела по аренде апартаментов</li>
+			<li>интегрирование системы online бронирования номеров</li>
+		</ul>
+		<div class="uk-text-center uk-margin-medium-top uk-margin-medium-bottom">
+			<picture>
+				<source srcset="img/tulahotel-new.webp" type="image/webp">
+				<img data-src="img/tulahotel-new.png" alt="" data-width="" data-height="" data-uk-img>
+			</picture>
+			<p class="imgTitle">Адаптивная версия сайта</p>
+		</div>
+	</div>
+	<div class="portfolioBlock " style="background-image: url('img/result.svg');">
+		<div class="h3">Результат:</div>
+		<ul class="check uk-margin-top">
+			<li>Сайт отвечает всем современным требованиям к дизайну и удобству для пользователей</li>
+			<li>Сразу после запуска новой рабочей версии сайта клиент получает заявки по двум целевым направлением: бронирование номеров и бронирование апартаментов.</li>
+		</ul>	
+		<div class="uk-child-width-1-2@s uk-margin-medium-top" data-uk-grid>
+			<div>
+				<img data-src="img/traced.svg" alt="" data-uk-img="">
+				<p>На сайте внедрена и интегрирована <br>система бронирования TravelLine</p>
+			</div>
+			<div>
+				<img data-src="img/instIcon.svg" alt="" data-uk-img="">
+				<p>Визуализация гармонично дополнена модулем экспорта фото из Instagram</p>
+			</div>
+		</div>
+	</div>
+	<div class="uk-flex uk-flex-between uk-flex-middle uk-margin-large-top uk-margin-large-bottom">
+		<div><a href="/portfolio.html" class="navLinks prevLink">Назад в портфолио</a></div>
+		<div><a href="/melange.html" class="navLinks nextLink">Следующий проект</a></div>
+	</div>
+	<div></div>
+</div>
+
+//= template/footerForm.html
+
+
+//= template/footer.html
+</body>
+</html>

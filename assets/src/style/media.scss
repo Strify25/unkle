@@ -1,0 +1,456 @@
+@media screen and (max-width: 1180px) {
+	#sidebarForm {
+		.uk-flex-nowrap {
+			flex-wrap: wrap;
+
+			> div {
+				width: 100%;
+			}
+		}
+		#sidebarFormPolicy {
+			margin-bottom: 15px;
+		}
+		[type="submit"] {
+			width: 100%;
+		}
+	}	
+	.b24-bg {
+		h1 {
+			font-size: 42px;
+
+			span {
+				font-size: inherit;
+			}
+		}
+	} 
+}
+
+@media screen and (max-width: 1075px) {
+	.uk-navbar-left {
+		.uk-navbar-nav {
+			display: none !important;
+		}
+	}
+	#sidebarMenu {
+		.uk-width-expand {
+			display: none;
+		}
+	}	
+	.b24-bg {
+		height: 635px;
+
+		.b24-img {
+			display: none;
+		}
+	} 
+	.b24-videoLightbox {
+		top: 0;
+		right: 160px;
+	}
+	.b24-tabs {
+		&:before {
+			display: none;
+		}
+		>li {
+			flex: 0 0 50% !important;
+		}
+		a {
+			span {
+				display: inline-block;
+				margin-left: 20px;
+			}
+		}
+		.uk-active {
+			a {
+				border-bottom: none;
+				border-left: 5px solid #386a9a;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 970px) {
+	.uk-navbar-nav >li>a {
+		font-size: 14px !important;
+	}
+
+}
+
+@media screen and (max-width: 960px) {
+	.mainAboutWrapper {
+		.mainAboutText {
+			position: static;
+		}
+	}
+	#sidebarMenu {
+		.uk-flex-nowrap {
+			flex-wrap: wrap !important;
+		}
+	}
+	#testModal {
+		.uk-modal-dialog {
+			padding: 50px;
+		}
+	}
+	.support {
+		padding: 80px 0;
+		background: $colorTitle url("../img/service/detail/supportMobile.jpg") right 0 no-repeat;
+
+		.blueBtn {
+			padding-left: 0;
+			padding-right: 0;
+			text-align: center;
+			width: 100%;
+		}
+	}
+	.anticrisysBetween {
+		justify-content: space-between;
+	}
+	.b24-bg {
+		height: 110vh;
+	}
+	.b24-videoLightbox {
+		position: relative;
+		top: auto;
+		right: auto;
+	}
+	.h2 .colorBlue, h2 .colorBlue {
+		br {
+			display: none;
+		}
+	}
+	.b24-tabs {
+		>li {
+			flex: 0 0 100% !important;
+		}
+	}
+}
+
+@media screen and (max-width: 830px) {
+	.anticrysis {
+		.h1 {
+			font-size: 24px;
+
+			span {
+				font-size: 48px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 640px) {
+	html, body {
+		overflow-x: hidden;
+	}
+	h1, .h1 {
+		font-size: 42px;
+		line-height: 1.25;
+	}
+	#footerFormForm {
+		.uk-flex-nowrap {
+			flex-direction: column;
+
+			.uk-first-column {
+				margin-bottom: 20px;
+			}
+		}
+	}
+	.uk-logo {
+		&.uk-margin-large-right {
+			margin-right: 0 !important;
+		}
+	}
+	#sidebarMenu {
+		height: 100vh;
+
+		.uk-close {
+			svg {
+				width: 24px;
+				height: 24px;
+			}
+		}
+		.sidebarMenuBorder {
+			border-top: none;
+			padding-left: 40px;
+			padding-right: 40px;
+
+			ul {
+				a {
+					font-size: 24px;
+				}
+			}
+		}
+		.mobilePhone {
+			color: $colorTitle;
+			font-size: 24px;
+			line-height: 14px;
+			margin-top: 50px;
+			margin-bottom: 25px;
+		}
+		.mobileEmail {
+			color: $colorTitle;
+			font-size: 24px;
+			line-height: 1.5;
+			margin-bottom: 25px;
+			display: inline-block;
+			border-bottom: 1px solid #DADADA;
+			transition: all .3s;
+
+			&:hover {
+				border-bottom-color: transparent;
+			}
+		}
+	}
+	.mainSliderScroll {
+		p {
+			display: none;
+		}
+	}
+	.litera {
+		font-size: 36px;
+
+		&:after {
+			font-size: 14px;
+			left: calc(100% + 8px);
+			bottom: 10px;
+		}
+	}
+	.forWho {
+		flex-direction: column-reverse;
+	}
+	.problems {
+		background: transparent;
+		padding-top: 0;
+
+		.p-0 {
+			padding: 0 !important;
+		}
+		.uk-card-body {
+			padding-left: 30px;
+
+			.h2 {
+				font-size: 24px;
+				line-height: 115%;
+				padding-left: 80px;
+				padding-right: 0;
+
+				br {
+					display: none;
+				}
+			}
+			.number {
+				font-size: 90px;
+				left: -30px;
+				top: 40px;
+			}
+		}
+	}
+	.problemTitle {
+		justify-content: center;
+
+		.text {
+			font-size: 32px;
+			line-height: 30px;
+		}
+		.number {
+			font-size: 200px;
+		}
+	}
+	.portfolioGrid {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.portfolioTitle {
+		&.uk-light {
+			font-size: 24px;
+			text-shadow: 0 0 5px #000; 
+		}
+	}
+	.portfolio {
+		.bannerTitle {
+			text-shadow: 0 0 5px #000; 
+
+			br {
+				display: none;
+			}
+		}
+	} 
+	.mainAboutWrapper {
+		.years {
+			margin-bottom: 15px;
+		}
+	}
+	.instaGrid {
+		grid-template-columns: 1fr 1fr;
+
+		.instaHeader {
+			grid-area: 1/1/2/3;
+			margin-left: -15px;
+			margin-right: -15px;
+			background: #1f1f1f url("../img/instagramBgMobile.svg") right bottom no-repeat;
+
+			span {
+				&.instaName {
+					display: block;
+				}
+			}
+		}
+	}
+	.footerForm {
+		.transWhiteBtn {
+			width: 100%;
+		}
+	}
+	footer {
+		text-align: center;
+
+		.uk-width-medium-3-12 {
+			.footerWrap {
+				border-top: 0;
+				padding-top: 0;
+			}
+		}
+		.uk-width-medium-5-12 {
+			margin-top: 50px !important;
+		}
+		.copyright {
+			border-top: 2px solid #1f1f1f;
+    		margin-top: 50px;
+		}
+	}
+	.footerMenu {
+		a {
+			font-size: 24px;
+			line-height: 1.5;
+			color: $colorTitle;
+		}
+	}
+	.footerContacts {
+		a {
+			&.phoneLink {
+				font-size: 24px;
+			}
+			&:not(.phoneLink) {
+				font-size: 24px;
+			}
+		}
+	}
+	#testModal {
+		.uk-modal-dialog {
+			padding: 50px 20px;
+		}
+		.percentWrap {
+			margin: 20px 0 30px;
+			width: 100%;
+			justify-content: center;
+			box-sizing: border-box;
+		}
+		.nextQstWrap {
+			flex-direction: column;
+		}
+		.questionCounter {
+			margin-bottom: 10px;
+		}
+	}
+	.testFormItem {
+		.flex-xs-column {
+			flex-direction: column;
+		}
+	}
+	.servWrap {
+		margin-left: -30px;
+		margin-right: -30px;
+	}
+	.mainAboutText {
+		.pr-100 {
+			padding-right: 0 !important;
+		}
+		.pl-100 {
+			padding-left: 0 !important;
+		}
+	}
+	.howLearn {
+		.number {
+			margin-right: 10px;
+		}
+	}
+	.target-planing-bg {
+		background-image: url("../img/service/detail/target-planing.jpg");
+		background-size: cover;
+	}
+	.create-bg {
+		background-image: url("../img/service/detail/createMobile.jpg");
+		background-size: cover;
+	}
+	.context-bg {
+		background-image: url("../img/service/detail/contextMobile.jpg");
+		background-size: cover;
+	}
+	.targeting-bg {
+		background-image: url("../img/service/detail/targetingMobile.jpg");
+		background-size: cover;
+	}
+	.seo-bg {
+		background-image: url("../img/service/detail/seoMobile.jpg");
+		background-size: cover;
+	}
+	.mobile-bg {
+		background-image: url("../img/service/detail/mobileMobile.jpg");
+		background-size: cover;
+	}
+	.iphoneWrap {
+		margin-top: 0;
+	}
+	#callMe, #successWrap {
+		.callMeWrap {
+			padding: 50px 25px;
+		}
+		.callMeTitle {
+			font-size: 30px;
+		}
+		.transBlackBtn {
+			margin-top: 20px;
+		}
+	}
+	.sertifH2 {
+		font-size: 24px;
+		line-height: 130%;
+	}
+	.b24-bg {
+		h1 {
+			font-size: 32px;
+		}
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.anticrysis {
+		.antiVirus {
+			width: 100%;
+			font-size: 11px;
+			box-sizing: border-box;
+		}
+		.h1 {
+			span {
+				font-size: 36px;
+
+				br {
+					display: none;
+				}
+			}
+		}
+	}
+	.b24-bg {
+		h1 {
+			span {
+
+				br {
+					display: none;
+				}
+			}
+		}
+	}
+	.b24-videoLightbox {
+		left: -85px;
+	}
+}
