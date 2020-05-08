@@ -76,6 +76,10 @@
 	color: $colorMain;
 }
 
+.colorBlue {
+	color: $colorBlueDark;
+}
+
 .position-relative {
 	position: relative;
 }
@@ -356,6 +360,16 @@ h5, .h5 {
 
 		&:after {
 			right: -45px;
+		}
+	}
+	&.colorBlue {
+		color: $colorBlueDark;
+
+		&:after {
+			background: url("../img/navLinksArrow.svg") no-repeat;
+		}
+		&:hover {
+			color: $colorBlueDark;
 		}
 	}
 }
@@ -2855,5 +2869,67 @@ footer {
 	&.uk-dotnav>.uk-active>* {
 		background: $colorBrend;
 		border-color: $colorBrend;
+	}
+}
+
+.seoPortfolioItem {
+	padding: 5px 20px 5px 0;
+	border-bottom: 1px solid $colorGray;
+}
+
+.seoPortfolioArrows {
+	a {
+		transition: all .3s;
+
+		&:hover {
+			background: #E7E7E7;
+		}
+	}
+}
+
+.reviewsBlock {
+	margin: 100px 0;
+	background: #F8F8F8;
+}
+
+.expandBlock {
+	.expandHidden {
+		display: none;
+	}
+}
+
+.showHidden {
+	color: $colorBlueDark;
+	display: inline-block;
+	cursor: pointer;
+
+	span {
+		color: $colorBlueDark;
+		
+		* {
+			color: $colorBlueDark;
+		}
+	}
+}
+
+.reviewsImg {
+	padding-right: 25px;
+	position: relative;
+	display: inline-block;
+
+	img {
+		width: 100%;
+		border-radius: 50%;
+		max-width: 170px;
+	}
+	&:after {
+		content: "";
+		display: block;
+		background: url("../img/seo/quote.svg") no-repeat center;
+		width: 32px;
+		height: 25px;
+		position: absolute;
+		right: 25px;
+		top: 0;
 	}
 }

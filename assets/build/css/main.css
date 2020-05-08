@@ -11597,6 +11597,9 @@ iframe.uk-cover {
   line-height: 1.5;
   color: #3F3F3F; }
 
+.colorBlue {
+  color: #386A9A; }
+
 .position-relative {
   position: relative; }
 
@@ -11870,6 +11873,12 @@ h5, .h5 {
     color: #fff; }
     .siteUrl:hover:after {
       right: -45px; }
+  .siteUrl.colorBlue {
+    color: #386A9A; }
+    .siteUrl.colorBlue:after {
+      background: url("../img/navLinksArrow.svg") no-repeat; }
+    .siteUrl.colorBlue:hover {
+      color: #386A9A; }
 
 ul.listLine {
   padding-left: 0;
@@ -13791,6 +13800,49 @@ footer {
 .seoPriceDots.uk-dotnav > .uk-active > * {
   background: #A0C1E0;
   border-color: #A0C1E0; }
+
+.seoPortfolioItem {
+  padding: 5px 20px 5px 0;
+  border-bottom: 1px solid #C4C4C4; }
+
+.seoPortfolioArrows a {
+  transition: all .3s; }
+  .seoPortfolioArrows a:hover {
+    background: #E7E7E7; }
+
+.reviewsBlock {
+  margin: 100px 0;
+  background: #F8F8F8; }
+
+.expandBlock .expandHidden {
+  display: none; }
+
+.showHidden {
+  color: #386A9A;
+  display: inline-block;
+  cursor: pointer; }
+  .showHidden span {
+    color: #386A9A; }
+    .showHidden span * {
+      color: #386A9A; }
+
+.reviewsImg {
+  padding-right: 25px;
+  position: relative;
+  display: inline-block; }
+  .reviewsImg img {
+    width: 100%;
+    border-radius: 50%;
+    max-width: 170px; }
+  .reviewsImg:after {
+    content: "";
+    display: block;
+    background: url("../img/seo/quote.svg") no-repeat center;
+    width: 32px;
+    height: 25px;
+    position: absolute;
+    right: 25px;
+    top: 0; }
 
 @media screen and (max-width: 1180px) {
   #sidebarForm .uk-flex-nowrap {

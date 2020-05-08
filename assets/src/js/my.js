@@ -430,4 +430,10 @@ jQuery(document).ready(function($) {
 		$(window).resize(heightFun);
 		
 	}
+
+	$(document).on('click', '.showHidden', function(event) {
+		event.preventDefault();
+		($(this).find(".text").text() === 'Развернуть') ? $(this).find(".text").text('Скрыть') : $(this).find(".text").text('Развернуть');
+		$(this).parent().find('.expandHidden').toggle();
+	});
 });
