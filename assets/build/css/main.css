@@ -13784,6 +13784,14 @@ footer {
   .seoTableItem .uk-icon *, .seoTableItem span {
     color: #386A9A; }
 
+.seoPriceDots.uk-dotnav > * > * {
+  background: #C4C4C4;
+  border-color: #C4C4C4; }
+
+.seoPriceDots.uk-dotnav > .uk-active > * {
+  background: #A0C1E0;
+  border-color: #A0C1E0; }
+
 @media screen and (max-width: 1180px) {
   #sidebarForm .uk-flex-nowrap {
     -ms-flex-wrap: wrap;
@@ -13862,7 +13870,9 @@ footer {
   .anticrysis .h1 {
     font-size: 24px; }
     .anticrysis .h1 span {
-      font-size: 48px; } }
+      font-size: 48px; }
+  .yellowTitle {
+    font-size: 18px; } }
 
 @media screen and (max-width: 640px) {
   html, body {
