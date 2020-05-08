@@ -11731,6 +11731,9 @@ h5, .h5 {
       top: 50%;
       background: #F4F1A0;
       z-index: -1; }
+  .yellowTitle .tooltip {
+    position: absolute;
+    right: -40px; }
 
 .blueBtn {
   display: inline-block;
@@ -13755,11 +13758,31 @@ footer {
       display: none; }
     .seoPriceHeader.uk-sticky-fixed .seoPrice {
       margin-bottom: 0; }
+  .seoPriceHeader .uk-container {
+    z-index: 1; }
 
 .seoPrice {
   color: #A0C1E0;
   font-weight: bolder;
   margin-bottom: 20px; }
+
+.seoTableWrap {
+  border-top: 3px solid #A0C1E0;
+  margin-bottom: 25px; }
+
+.uk-tooltip-inner {
+  font-size: 12px;
+  color: #fff;
+  line-height: 1.2; }
+
+.seoTableItem {
+  padding: 15px 0;
+  border-bottom: 1px solid #C4C4C4;
+  transition: all 0.3s; }
+  .seoTableItem:hover {
+    background: rgba(160, 193, 224, 0.1); }
+  .seoTableItem .uk-icon *, .seoTableItem span {
+    color: #386A9A; }
 
 @media screen and (max-width: 1180px) {
   #sidebarForm .uk-flex-nowrap {
