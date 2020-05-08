@@ -134,8 +134,58 @@ h5, .h5 {
 	@include headings; 
 }
 
+.yellowTitle {
+	font-size: 24px;
+	@include headings; 
+	margin-bottom: 20px;
+	display: inline-flex;
+	align-items: center;
+	position: relative;
+	text-align: center;
+	line-height: 1;
+
+	&:after {
+		content: "";
+		display: block;
+		width: calc(100% + 0px);
+		height: 19px;
+		position: absolute;
+		left: 0;
+		top: 50%;
+		background: #F4F1A0;
+		z-index: -1;
+	}
+	* {
+		font-size: inherit;
+		color: inherit;
+		line-height: 1;
+	}
+	&.twoLines {
+
+		&:after {
+			display: none;
+		}
+		span {
+			display: inline-block;
+			position: relative;
+
+			&:after {
+				content: "";
+				display: block;
+				width: calc(100% + 0px);
+				height: 19px;
+				position: absolute;
+				left: 0;
+				top: 50%;
+				background: #F4F1A0;
+				z-index: -1;
+			}
+		}
+	}
+}
+
 .blueBtn {
-	@include btn();
+@include btn();
 	color: #fff;
 	background: $colorBlue;
 
@@ -381,6 +431,7 @@ ol {
 }
 
 .topNav.uk-sticky-below {
+	z-index: 981;
 	background: rgba(0,0,0,.8);
 } 
  
@@ -2741,4 +2792,26 @@ footer {
 			color: #fff;
 		}
 	}
+}
+
+.seoPriceHeader {
+	background: #fff;
+
+	&.uk-sticky-fixed {
+		box-shadow: 0 0 10px rgba(0,0,0,.5);
+		padding: 20px 0;
+
+		.blueBtn {
+			display: none;
+		}
+		.seoPrice {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.seoPrice {
+	color: $colorBrend;
+	font-weight: bolder;
+	margin-bottom: 20px;
 }

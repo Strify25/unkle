@@ -11683,6 +11683,55 @@ h5, .h5 {
   h5 .colorBlue, .h5 .colorBlue {
     color: #386A9A; }
 
+.yellowTitle {
+  font-size: 24px;
+  font-weight: 900;
+  color: #1F1F1F;
+  font-family: 'Gotham Pro', 'Roboto', Arial, sans-serif;
+  margin-bottom: 20px;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-align: center;
+      align-items: center;
+  position: relative;
+  text-align: center;
+  line-height: 1; }
+  .yellowTitle span {
+    font-weight: inherit;
+    font-size: inherit;
+    color: inherit; }
+  .yellowTitle .colorBlue {
+    color: #386A9A; }
+  .yellowTitle:after {
+    content: "";
+    display: block;
+    width: calc(100% + 0px);
+    height: 19px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    background: #F4F1A0;
+    z-index: -1; }
+  .yellowTitle * {
+    font-size: inherit;
+    color: inherit;
+    line-height: 1; }
+  .yellowTitle.twoLines:after {
+    display: none; }
+  .yellowTitle.twoLines span {
+    display: inline-block;
+    position: relative; }
+    .yellowTitle.twoLines span:after {
+      content: "";
+      display: block;
+      width: calc(100% + 0px);
+      height: 19px;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      background: #F4F1A0;
+      z-index: -1; }
+
 .blueBtn {
   display: inline-block;
   padding: 15px 35px;
@@ -11875,6 +11924,7 @@ ol.count {
       margin-top: 20px; }
 
 .topNav.uk-sticky-below {
+  z-index: 981;
   background: rgba(0, 0, 0, 0.8); }
 
 .mainSlide {
@@ -13695,6 +13745,21 @@ footer {
 
 .b24Wrap:hover .colorBlue {
   color: #fff; }
+
+.seoPriceHeader {
+  background: #fff; }
+  .seoPriceHeader.uk-sticky-fixed {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px 0; }
+    .seoPriceHeader.uk-sticky-fixed .blueBtn {
+      display: none; }
+    .seoPriceHeader.uk-sticky-fixed .seoPrice {
+      margin-bottom: 0; }
+
+.seoPrice {
+  color: #A0C1E0;
+  font-weight: bolder;
+  margin-bottom: 20px; }
 
 @media screen and (max-width: 1180px) {
   #sidebarForm .uk-flex-nowrap {
