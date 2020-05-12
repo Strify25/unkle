@@ -13248,6 +13248,12 @@ footer {
   background-position-x: center;
   background-size: cover;
   background-color: #121212; }
+  .seo-bg li {
+    color: #fff; }
+    .seo-bg li span {
+      color: inherit; }
+    .seo-bg li:before {
+      color: #A0C1E0; }
 
 .mobile-bg {
   background-image: url("../img/service/detail/mobile.jpg");
@@ -13767,6 +13773,9 @@ footer {
       display: none; }
     .seoPriceHeader.uk-sticky-fixed .seoPrice {
       margin-bottom: 0; }
+    .seoPriceHeader.uk-sticky-fixed .baseBgHeader {
+      height: calc(100% + 40px);
+      top: -20px; }
   .seoPriceHeader .uk-container {
     z-index: 1; }
 
@@ -13843,6 +13852,19 @@ footer {
     position: absolute;
     right: 25px;
     top: 0; }
+
+.baseBg, .baseBgHeader {
+  background: #f8f8f8;
+  width: 24%;
+  height: calc(100% + 15px);
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 50%; }
+
+.baseBgHeader {
+  height: calc(100% + 15px);
+  top: -15px; }
 
 @media screen and (max-width: 1180px) {
   #sidebarForm .uk-flex-nowrap {
