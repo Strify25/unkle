@@ -8,4 +8,5 @@
 //= ../../../node_modules/uikit/dist/js/uikit-icons.min.js
 //= jquery.inputmask.min.js
 //= validate.min.js
+//= swiper.min.js
 //= my.js

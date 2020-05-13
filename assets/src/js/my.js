@@ -436,4 +436,26 @@ jQuery(document).ready(function($) {
 		($(this).find(".text").text() === 'Развернуть') ? $(this).find(".text").text('Скрыть') : $(this).find(".text").text('Развернуть');
 		$(this).parent().find('.expandHidden').toggle();
 	});
+
+	var mySwiper = new Swiper ('.seoPriceSlider', {
+	    // Optional parameters
+	    loop: true,
+
+	    // If we need pagination
+	    pagination: {
+	    	el: '.swiper-pagination-seoPriceSlider',
+	    },
+	})
+	var mySwiper = new Swiper ('.seoExampleSlider', {
+	    // Optional parameters
+	    loop: true,
+	    navigation: {
+	    	nextEl: '.seoExampleSlider-next',
+	    	prevEl: '.seoExampleSlider-prev',
+	    },
+	    // If we need pagination
+	    pagination: {
+	    	el: '.swiper-pagination-example',
+	    },
+	})
 });

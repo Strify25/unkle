@@ -2875,14 +2875,20 @@ footer {
 	}
 }
 
-.seoPriceDots {
-	&.uk-dotnav>*>* {
+.swiperDots {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 25px;
+
+	.swiper-pagination-bullet {
 		background: $colorGray;
 		border-color: $colorGray;
-	}
-	&.uk-dotnav>.uk-active>* {
-		background: $colorBrend;
-		border-color: $colorBrend;
+
+		&.swiper-pagination-bullet-active {
+			background: $colorBrend;
+			border-color: $colorBrend;
+		}
 	}
 }
 
@@ -2892,8 +2898,10 @@ footer {
 }
 
 .seoPortfolioArrows {
-	a {
+	> div {
 		transition: all .3s;
+		cursor: pointer;
+		outline: none;
 
 		&:hover {
 			background: #E7E7E7;
